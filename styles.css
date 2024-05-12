@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+  overflow-x: hidden;
+  background-image: url(/imagenes/Tren-de-la-serie-9700-del-metro-de-Madrid-en-Ronda-de-la-Comunicacion-4039431328.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Space Grotesk", sans-serif;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #222222;
+  transition: all 0.3s ease;
+
+}
+
+.cabecera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 40px;
+  height: 80px;
+  background-color: rgb(23, 21, 21);
+ 
+  
+}
+
+
+.titulo {
+  cursor: pointer;
+  flex-grow: 0.9;
+  color: rgb(187, 187, 187);
+  text-align: center;
+}
+
+
+.btn {
+  padding: 9px 25px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0px 7px;
+  color: #e5e5e5;
+  font-weight: 300;
+  align-items: flex-end;
+
+
+}
+
+
+.btn:hover {
+  transition: all 1s ease;
+  border: 2px solid rgb(72, 155, 224);
+}
+
+.login-btn {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+
+.contenedor-navbar {
+  font-weight: bold;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b1b1b1;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: all 0.5s ease;
+  z-index: 99;
+  opacity: 0.8;
+
+}
+
+
+.main_navbar_ul {
+
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-left: 40px;
+  line-height: 50px;
+
+
+}
+
+
+.navbar1 {
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: all 0.3s ease;
+  background-color: #b1b1b1;
+  border-bottom: 1px solid transparent;
+
+
+}
+
+.navbar:after {
+  content: "";
+  height: 4px;
+  width: 0;
+  background-color: rgb(139, 10, 10);
+  display: block;
+  transition: all .4s;
+
+}
+
+.navbar:hover::after {
+  width: 100%;
+
+}
+
+.navbar1 {
+  display: block;
+  height: 100%;
+  border-bottom: 1px solid transparent;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+#imagen-centro{
+  width: 70rem;
+  height: auto;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: aliceblue;
+}
+
+#accesibilidad
+{
+  color: black;
+}
+#accesibilidad:hover{
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  width: 200px;
+  opacity: 0.8;
+  margin-bottom: 5px;
+  border-radius: 13px;
+  font-weight: 600;
+}
+
+button:hover{
+  border: 2px solid rgb(72, 155, 224);
+  transition: all 0.5s ease;
+}
+
+#inc {
+  background: darkred;
+  font-family: monospace
+}
+
+
+
+p {
+  color:black;
+}
+
+
+
+#iframe {
+  border-color: transparent;
+  width: 600px;
+  height: 600px;
+}
+.contenedor-iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.cabecera img {
+  max-height: 80px;
+
+}
+
+img {
+height: 80px;
+margin-right: auto;
+
+}
+
+.contenedor-textos{
+  display: flex;
+  align-items: flex-start;
+}
+
+#imagen-centro{
+  margin-right: 20px;
+  width: 950px;
+  height: auto; 
+  margin-left: 70px;
+}
+
+
+#texto-imagen {
+  font-family: 'Roboto Mono',sans-serif; 
+  font-weight: 500; 
+  background-color: aliceblue; 
+  opacity: 0.8; 
+  text-align: center;
+  line-height: 2.4; 
+  margin: 0 auto; 
+  width: 40%;
+  padding: 0 0px;
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
+
+#pagar-btn{
+  width: 80%; 
+  padding: 10px; 
+  margin-top: 10px; 
+  background-color: black; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+#pagar-btn:hover {
+  background-color: #333; 
+}
+
+/* ESTILADO PAGINA PRINCIPAL */
+
+.contenedor-billetes {
+  background-color: rgba(255, 255, 255, 0.822);
+  width: 500px; 
+  padding: 20px; 
+  margin: 50px auto; 
+  box-shadow: black;
+  text-align: center; 
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.726);
+}
+
+#button1 {
+  width: 80%; 
+  padding: 10px; 
+  margin-top: 10px; 
+  background-color: black; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+#button1:hover {
+  background-color: #333; 
+}
+
